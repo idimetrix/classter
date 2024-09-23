@@ -1,5 +1,5 @@
 {
-  "name": "classnames3",
+  "name": "classter",
   "version": "1.0.1",
   "description": "A utility for conditionally joining classNames together. Handles various argument types: string, object, arrays, etc.",
   "license": "MIT",
@@ -32,10 +32,10 @@
     "test:coverage": "jest --coverage",
     "docs": "typedoc --entryPoints ./src/index.ts --out docs --plugin typedoc-plugin-markdown"
   },
-  "homepage": "https://github.com/idimetrix/classnames3#readme",
-  "url": "https://github.com/idimetrix/classnames3/issue",
+  "homepage": "https://github.com/idimetrix/classter#readme",
+  "url": "https://github.com/idimetrix/classter/issue",
   "bugs": {
-    "url": "https://github.com/idimetrix/classnames3/issues"
+    "url": "https://github.com/idimetrix/classter/issues"
   },
   "keywords": [],
   "files": [

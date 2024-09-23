@@ -8,7 +8,7 @@ export type Argument = Value | Mapping | ArgumentArray | ReadonlyArgumentArray;
  * A utility for conditionally joining classNames together.
  * Handles various argument types: string, object, arrays, etc.
  */
-export default function classNames(...args: ArgumentArray): string {
+export default function classter(...args: ArgumentArray): string {
   const classes: string[] = [];
 
   for (let i = 0; i < args.length; i++) {
@@ -25,7 +25,7 @@ export default function classNames(...args: ArgumentArray): string {
     } else if (Array.isArray(arg)) {
       // Recursively handle arrays of arguments
       if (arg.length) {
-        const inner = classNames(...arg);
+        const inner = classter(...arg);
         if (inner) {
           classes.push(inner);
         }

@@ -1,8 +1,8 @@
-[**classnames3**](../README.md) • **Docs**
+[**classter**](../README.md) • **Docs**
 
 ***
 
-[classnames3](../globals.md) / Argument
+[classter](../globals.md) / Argument
 
 # Type Alias: Argument
 
@@ -10,4 +10,4 @@
 
 ## Defined in
 
-src/index.ts:5
+[src/index.ts:5](https://github.com/idimetrix/classnames3/blob/e54d71ab345e6d63f959510cdce3c51ded699422/src/index.ts#L5)

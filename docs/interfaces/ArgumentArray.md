@@ -1,8 +1,8 @@
-[**classnames3**](../README.md) • **Docs**
+[**classter**](../README.md) • **Docs**
 
 ***
 
-[classnames3](../globals.md) / ArgumentArray
+[classter](../globals.md) / ArgumentArray
 
 # Interface: ArgumentArray
 

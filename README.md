@@ -1,4 +1,4 @@
-# **classnames3** • [**Documentation**](https://github.com/idimetrix/classnames3/blob/main/docs/classes/ProDate.md)
+# **classter** • [**Documentation**](https://github.com/idimetrix/classter/blob/main/docs/globals.md)
 
 A utility for conditionally joining classNames together.
 Handles various argument types: string, object, arrays, etc.
@@ -8,30 +8,30 @@ Handles various argument types: string, object, arrays, etc.
 You can install the package using **npm**, **yarn**, or **pnpm**.
 
 ```bash
-pnpm add classnames3
+pnpm add classter
 
-yarn install classnames3
+yarn install classter
 
-npm install classnames3
+npm install classter
 ```
 
 ## Usage
 
 ```tsx
-import cn from "classnames3";
+import cls from "classter";
 
-cn("foo", "bar"); // => 'foo bar'
-cn("foo", { bar: true }); // => 'foo bar'
-cn({ "foo-bar": true }); // => 'foo-bar'
-cn({ "foo-bar": false }); // => ''
-cn({ foo: true }, { bar: true }); // => 'foo bar'
-cn({ foo: true, bar: true }); // => 'foo bar'
+cls("foo", "bar"); // => 'foo bar'
+cls("foo", { bar: true }); // => 'foo bar'
+cls({ "foo-bar": true }); // => 'foo-bar'
+cls({ "foo-bar": false }); // => ''
+cls({ foo: true }, { bar: true }); // => 'foo bar'
+cls({ foo: true, bar: true }); // => 'foo bar'
 
 // lots of arguments of various types
-cn("foo", { bar: true, duck: false }, "baz", { quux: true }); // => 'foo bar baz quux'
+cls("foo", { bar: true, duck: false }, "baz", { quux: true }); // => 'foo bar baz quux'
 
 // other falsy values are just ignored
-cn(null, false, "bar", undefined, 0, 1, { baz: null }, ""); // => 'bar 1'
+cls(null, false, "bar", undefined, 0, 1, { baz: null }, ""); // => 'bar 1'
 ```
 
 ## tsup
@@ -79,4 +79,4 @@ $ npm publish
 
 ## test package
 
-https://www.npmjs.com/package/classnames3
+https://www.npmjs.com/package/classter

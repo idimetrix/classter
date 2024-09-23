@@ -1,8 +1,8 @@
-[**classnames3**](README.md) • **Docs**
+[**classter**](README.md) • **Docs**
 
 ***
 
-# classnames3
+# classter
 
 ## Interfaces
 

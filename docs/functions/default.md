@@ -1,8 +1,8 @@
-[**classnames3**](../README.md) • **Docs**
+[**classter**](../README.md) • **Docs**
 
 ***
 
-[classnames3](../globals.md) / default
+[classter](../globals.md) / default
 
 # Function: default()
 
@@ -21,4 +21,4 @@ Handles various argument types: string, object, arrays, etc.
 
 ## Defined in
 
-src/index.ts:11
+[src/index.ts:11](https://github.com/idimetrix/classnames3/blob/e54d71ab345e6d63f959510cdce3c51ded699422/src/index.ts#L11)
